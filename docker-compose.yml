@@ -28,7 +28,7 @@ services:
       - internal
 
   frontend:
-    image: "ghcr.io/warghkhan/film-frontend:latest"
+    image: "ghcr.io/zed-damasky/film-frontend:latest"
     build:
       context: frontend
     environment:
@@ -39,7 +39,7 @@ services:
       - frontend_build:/app/dist
 
   backend:
-    image: "ghcr.io/warghkhan/film-backend:latest"
+    image: "ghcr.io/zed-damasky/film-backend:latest"
     build:
       context: backend
       dockerfile: Dockerfile
@@ -60,7 +60,7 @@ services:
     networks:
       - internal
   server:
-    image: "ghcr.io/warghkhan/film-nginx:latest"
+    image: "ghcr.io/zed-damasky/film-nginx:latest"
     build:
       context: nginx
     ports:
