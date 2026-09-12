@@ -28,7 +28,7 @@ services:
       - internal
 
   frontend:
-    image: "ghcr.io/warghkhan/film-frontend:latest"
+    image: "ghcr.io/zed-damasky/film-frontend:latest"
     environment:
       VITE_BASE_URL: /
       VITE_API_URL: /api/afisha
@@ -37,7 +37,7 @@ services:
       - frontend_build:/app/dist
 
   backend:
-    image: "ghcr.io/warghkhan/film-backend:latest"
+    image: "ghcr.io/zed-damasky/film-backend:latest"
     environment:
       DB_HOST: database
       DB_PORT: ${DB_PORT}
@@ -55,7 +55,7 @@ services:
     networks:
       - internal
   server:
-    image: "ghcr.io/warghkhan/film-nginx:latest"
+    image: "ghcr.io/zed-damasky/film-nginx:latest"
     ports:
       - 80:80
     volumes:
