@@ -1,6 +1,6 @@
 # Film!
 
-![Film!](<img width="230" height="88" alt="image" src="https://github.com/user-attachments/assets/2af1ccb1-0be0-4da6-b109-734c41f59db1" />)
+<img width="225" height="81" alt="image" src="https://github.com/user-attachments/assets/2f75bfb4-da4c-4d94-87d6-6ecd74f1c110" />
 
 Современный веб-сервис для онлайн-бронирования билетов в кинотеатр. Платформа позволяет пользователям просматривать актуальную афишу, изучать расписание сеансов и безопасно бронировать места в зале. 
 
